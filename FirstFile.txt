@@ -1,7 +1,4 @@
-<<<<<<< HEAD
-all done
-hot for conflict fix done first file
-=======
 first file is done!!
 Edit ReadMe
->>>>>>> refs/remotes/origin/firstbranch
+all done
+hot for conflict fix done first file
