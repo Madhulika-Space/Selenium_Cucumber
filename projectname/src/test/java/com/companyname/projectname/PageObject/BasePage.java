@@ -23,8 +23,8 @@ public class BasePage {
 		driver.manage().timeouts().implicitlyWait(20,TimeUnit.SECONDS);
 		driver=null;
 		driver.manage().window().maximize();
-		driver.get("www.makemytrip.com");
-		//driver.navigate().to("http://www.makemytrip.com/");
+		//driver.get("www.makemytrip.com");
+		driver.navigate().to("http://www.makemytrip.com/");
 		log.debug("Application opened");
 		
 		WebDriverWait wait = new WebDriverWait(driver, 30);
